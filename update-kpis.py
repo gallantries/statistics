@@ -16,18 +16,18 @@ for event in glob.glob("events/*"):
     kpi2 += 1
     with open(event, 'r') as handle:
         data = yaml.safe_load(handle.read())
-        print(data['demographics'])
-        print(data['results'])
 
-        kpi3 += data['demographics']['stage']['early']
-        kpi4 += data['demographics']['stage']['late']
-        #
-        for k, v in data['results']['quality'].items():
-            kpi6[k] += data['results']['quality'][k]
-        for k, v in data['results']['satisfaction'].items():
-            kpi7[k] += data['results']['satisfaction'][k]
-        for k, v in data['results']['recommendation'].items():
-            kpi8[k] += data['results']['recommendation'][k]
+        if 'demographics' in data:
+            kpi3 += data['demographics']['stage']['early']
+            kpi4 += data['demographics']['stage']['late']
+        
+        if 'results' in data:
+            for k, v in data['results']['quality'].items():
+                kpi6[k] += data['results']['quality'][k]
+            for k, v in data['results']['satisfaction'].items():
+                kpi7[k] += data['results']['satisfaction'][k]
+            for k, v in data['results']['recommendation'].items():
+                kpi8[k] += data['results']['recommendation'][k]
 
 kpis['KPI2']['progress'] = kpi2
 kpis['KPI3']['progress'] = kpi3

@@ -4,12 +4,12 @@ KPI1:
   title: Number of full training modules released as training courses
 KPI2:
   goal: 8
-  progress: 2
+  progress: 3
   title: Number of training events during the lifetime of the project
   unit: events
 KPI3:
   goal: 650
-  progress: 2308
+  progress: 2456
   title: Number of MSc/PhD students trained during the lifetime of the project
   unit: students
 KPI4:
