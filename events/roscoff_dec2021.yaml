@@ -1,0 +1,27 @@
+title: "Assemblage et annotation @ Roscoff 2021"
+start: 2021-12-01
+end: 2021-12-03
+demographics:
+  gender:
+    man: 9
+    non-binary: 0
+    decline: 0
+    woman: 6
+  stage:
+    early: 5
+    late: 10
+    other: 0
+results:
+  quality:
+    3: 0
+    4: 5
+    5: 10
+  satisfaction:
+    3: 1
+    4: 8
+    5: 6
+  recommendation:
+    "Maybe": 1
+    "Yes": 14
+country:
+  FRA: 15
