@@ -1,0 +1,101 @@
+title: "GTN Smörgåsbord"
+start: 2021-02-15
+end: 2021-02-19
+demographics:
+  gender:
+    man: 564
+    non-binary: 4
+    decline: 23
+    woman: 598
+  stage:
+    early: 672
+    late: 359
+    other: 67
+results:
+  quality:
+    3: 9
+    4: 25
+    5: 45
+  satisfaction:
+    3: 2
+    4: 14
+    5: 63
+  recommendation:
+    "Maybe": 3
+    "Yes": 75
+country:
+  ARG: 19
+  AUS: 44
+  AUT: 15
+  BEL: 11
+  BGD: 12
+  BGR: 4
+  BRA: 21
+  CAN: 25
+  CHE: 3
+  CHL: 6
+  CHN: 9
+  CIV: 3
+  COL: 2
+  CZE: 8
+  DEU: 143
+  DNK: 5
+  DZA: 3
+  EGY: 7
+  ESP: 47
+  EST: 24
+  FIN: 1
+  FRA: 1
+  GBR: 47
+  GHA: 1
+  GRC: 30
+  HKG: 1
+  HUN: 10
+  IDN: 4
+  IND: 132
+  IRL: 1
+  IRN: 34
+  IRQ: 1
+  ISR: 3
+  ITA: 28
+  JPN: 9
+  KAZ: 1
+  KEN: 15
+  KOR: 4
+  LVA: 42
+  MDG: 1
+  MEX: 12
+  MLT: 1
+  MYS: 6
+  NAM: 1
+  NGA: 16
+  NLD: 46
+  NOR: 5
+  NPL: 1
+  NZL: 3
+  PAK: 14
+  PAN: 1
+  PER: 2
+  PHL: 4
+  POL: 6
+  PRT: 8
+  PRY: 1
+  QAT: 1
+  ROU: 1
+  RUS: 5
+  SAU: 1
+  SDN: 1
+  SGP: 8
+  SRB: 2
+  SWE: 8
+  SWZ: 1
+  SYR: 3
+  THA: 8
+  TUR: 31
+  TWN: 2
+  UKR: 1
+  URY: 1
+  USA: 148
+  VNM: 9
+  ZAF: 16
+  ZWE: 1

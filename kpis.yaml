@@ -1,0 +1,32 @@
+KPI1:
+  goal: 5
+  progress: 1
+  title: Number of full training modules released as training courses
+KPI2:
+  goal: 8 events
+  progress: 2
+  title: Number of training events during the lifetime of the project
+KPI3:
+  goal: 650 students
+  progress: 2308
+  title: Number of MSc/PhD students trained during the lifetime of the project
+KPI4:
+  goal: 180 learners
+  progress: 1534
+  title: Number of later-career learners trained during the lifetime of the project
+KPI5:
+  goal: 10 participants
+  progress: null
+  title: Number of Gallantries participants advocating the project in external conferences
+KPI6:
+  goal: top 10% in Likert scale
+  progress: 8.897360703812316
+  title: Average perception of the quality of training offered
+KPI7:
+  goal: top 10% in Likert scale
+  progress: 9.290322580645162
+  title: Average satisfaction of topic relevance to the needs
+KPI8:
+  goal: top 10% in Likert scale
+  progress: 9.84660766961652
+  title: Average recommendation of material
