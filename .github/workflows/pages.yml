@@ -30,6 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Update output
+        run: |
+          python update-kpis.py; python export.py > countries.csv; python build.py
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
