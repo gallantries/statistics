@@ -53,6 +53,8 @@ for k, v in data.items():
         k = 'UNITED STATES OF AMERICA'
     if k == 'WALES':
         k = 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND'
+    if k == 'VENEZUELA':
+        k = 'VENEZUELA, BOLIVARIAN REPUBLIC OF'
 
     country = iso3166.countries_by_name[k.upper()]
     if country.alpha3 in out:
