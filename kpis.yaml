@@ -4,17 +4,17 @@ KPI1:
   title: Number of full training modules released as training courses
 KPI2:
   goal: 8
-  progress: 3
+  progress: 4
   title: Number of training events during the lifetime of the project
   unit: events
 KPI3:
   goal: 650
-  progress: 2456
+  progress: 2461
   title: Number of MSc/PhD students trained during the lifetime of the project
   unit: students
 KPI4:
   goal: 180
-  progress: 1534
+  progress: 1544
   title: Number of later-career learners trained during the lifetime of the project
   unit: learners
 KPI5:
@@ -24,16 +24,16 @@ KPI5:
   unit: participants
 KPI6:
   goal: top 10% in Likert scale
-  progress: 8.897360703812316
+  progress: 8.915730337078651
   title: Average perception of the quality of training offered
   unit: '%'
 KPI7:
   goal: top 10% in Likert scale
-  progress: 9.290322580645162
+  progress: 9.264044943820224
   title: Average satisfaction of topic relevance to the needs
   unit: '%'
 KPI8:
   goal: top 10% in Likert scale
-  progress: 9.84660766961652
+  progress: 9.841807909604519
   title: Average recommendation of material
   unit: '%'
