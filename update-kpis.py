@@ -16,6 +16,7 @@ for event in glob.glob("events/*"):
     kpi2 += 1
     with open(event, 'r') as handle:
         data = yaml.safe_load(handle.read())
+        print(event)
 
         if 'demographics' in data:
             kpi3 += data['demographics']['stage']['early']
