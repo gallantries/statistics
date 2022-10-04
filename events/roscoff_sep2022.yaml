@@ -1,0 +1,27 @@
+title: "EBAII Assemblage et annotation @ Roscoff 2022"
+start: 2022-09-26
+end: 2022-09-30
+demographics:
+  gender:
+    man: 4
+    non-binary: 0
+    decline: 0
+    woman: 9
+  stage:
+    early: 6
+    late: 7
+    other: 0
+results:
+  quality:
+    3: 1
+    4: 5
+    5: 7
+  satisfaction:
+    3: 1
+    4: 5
+    5: 7
+  recommendation:
+    "Maybe": 0
+    "Yes": 13
+country:
+  FRA: 13
