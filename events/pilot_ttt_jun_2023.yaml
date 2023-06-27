@@ -1,0 +1,22 @@
+title: "Train the Trainers workshop"
+start: 2023-06-12
+end: 2023-06-15
+demographics:
+  stage:
+    early: 1
+    late: 12
+  gender:
+    man: 7
+    non-binary: 0
+    decline: 1
+    woman: 5
+country:
+  BEL: 1
+  CHE: 1
+  FRA: 3
+  GER: 2
+  IND: 1
+  ITA: 1
+  NLD: 1
+  NOR: 1
+  SWE: 1
