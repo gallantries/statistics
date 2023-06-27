@@ -10,11 +10,13 @@ demographics:
   stage:
     other: 234
     bsc: 198
+    msc: 578
+    phd: 860
+
     faculty: 267
     post-doc: 374
     researcher: 534
-    msc: 578
-    phd: 860
+
     early: 1636
     late: 1175
 results:

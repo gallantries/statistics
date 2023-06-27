@@ -19,9 +19,9 @@ for event in glob.glob("events/*"):
         print(event)
 
         if 'demographics' in data:
-            kpi3 += data['demographics']['stage']['early']
-            kpi4 += data['demographics']['stage']['late']
-        
+            kpi3 += data['demographics']['stage']['bsc'] + data['demographics']['stage']['msc'] + data['demographics']['stage']['phd']
+            kpi4 += data['demographics']['stage']['faculty'] + data['demographics']['stage']['post-doc'] + data['demographics']['stage']['researcher']
+
         if 'results' in data:
             for k, v in data['results']['quality'].items():
                 kpi6[k] += data['results']['quality'][k]
