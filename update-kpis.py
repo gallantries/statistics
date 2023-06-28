@@ -20,12 +20,12 @@ for event in glob.glob("events/*"):
 
         if 'demographics' in data:
             if 'early' in data['demographics']['stage']:
-                kpi3 = data['demographics']['stage']['early']
+                kpi3 += data['demographics']['stage']['early']
             else:
                 kpi3 += data['demographics']['stage']['bsc'] + data['demographics']['stage']['msc'] + data['demographics']['stage']['phd']
 
             if 'late' in data['demographics']['stage']:
-                kpi4 = data['demographics']['stage']['late']
+                kpi4 += data['demographics']['stage']['late']
             else:
                 kpi4 += data['demographics']['stage']['faculty'] + data['demographics']['stage']['post-doc'] + data['demographics']['stage']['researcher']
 

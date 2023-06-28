@@ -9,12 +9,12 @@ KPI2:
   unit: events
 KPI3:
   goal: 650
-  progress: 1774
+  progress: 4242
   title: Number of MSc/PhD students trained during the lifetime of the project
   unit: students
 KPI4:
   goal: 180
-  progress: 1260
+  progress: 2823
   title: Number of later-career learners trained during the lifetime of the project
   unit: learners
 KPI5:
