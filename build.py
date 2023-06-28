@@ -9,7 +9,7 @@ with open('template.html', 'r') as handle:
 for k in (1, 2, 3, 4):
     kpicount = kpis[f"KPI{k}"]['progress']
     kpipercent = kpis[f"KPI{k}"]['progress'] / kpis[f"KPI{k}"]['goal'] * 100
-    success = kpipercent > 100
+    success = kpipercent >= 100
     print(k)
 
     tpl = tpl.replace(
@@ -30,7 +30,7 @@ for k in (1, 2, 3, 4):
 for k in (6, 7, 8):
     kpicount = kpis[f"KPI{k}"]['progress']
     kpipercent = kpis[f"KPI{k}"]['progress'] / 9
-    success = kpipercent > 1
+    success = kpipercent >= 0.99
 
     tpl = tpl.replace(
         f'<!-- KPI{k}COUNT -->',
