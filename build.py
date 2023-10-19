@@ -69,7 +69,7 @@ for event in sorted(glob.glob("events/*")):
                 quality += v * k * 2
             quality_denom = sum(d.get('results', {}).get('quality', {}).values())
             if quality_denom:
-                quality = round(quality / quality_denom, 1)
+                quality = round(quality / quality_denom, 1) / 2
 
         satisfaction = "not reported"
         if 'results' in d and 'satisfaction' in d['results']:
@@ -78,7 +78,7 @@ for event in sorted(glob.glob("events/*")):
                 satisfaction += v * k * 2
             satisfaction_denom = sum(d.get('results', {}).get('satisfaction', {}).values())
             if satisfaction_denom:
-                satisfaction = round(satisfaction / satisfaction_denom, 1)
+                satisfaction = round(satisfaction / satisfaction_denom, 1) / 2
 
         recommendation = "not reported"
         if 'results' in d and 'recommendation' in d['results']:

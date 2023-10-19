@@ -24,16 +24,16 @@ KPI5:
   unit: participants
 KPI6:
   goal: top 10% in Likert scale
-  progress: 8.991119005328597
+  progress: 9.003436426116838
   title: Average perception of the quality of training offered
   unit: '%'
 KPI7:
   goal: top 10% in Likert scale
-  progress: 9.12099644128114
+  progress: 9.057627118644067
   title: Average satisfaction of topic relevance to the needs
   unit: '%'
 KPI8:
   goal: top 10% in Likert scale
-  progress: 9.856887298747765
+  progress: 9.84083044982699
   title: Average recommendation of material
   unit: '%'

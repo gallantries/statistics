@@ -11,6 +11,20 @@ demographics:
     early: 148
     late: 0
     other: 5
+results:
+  quality:
+    3: 1
+    4: 4
+    5: 14
+  satisfaction:
+    1: 1
+    2: 1
+    3: 7
+    4: 10
+    5: 9
+  recommendation:
+    "Maybe": 3
+    "Yes": 16
 country:
   ARG: 22
   AUS: 1
